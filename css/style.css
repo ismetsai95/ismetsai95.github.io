@@ -1,9 +1,10 @@
-.view {
-  background: url("https://wisatadaerahku.com/wp-content/uploads/2018/12/boalemo.jpg")
-    no-repeat center center;
-  background-size: cover;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
-
 .navbar {
   background-color: transparent;
 }
@@ -28,7 +29,7 @@ header,
   position: absolute;
   left: 10%;
   right: 10%;
-  top: 20%;
+  top: 5%;
   font-style: normal;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 30pt;
@@ -46,15 +47,15 @@ header,
 .selector {
   position: absolute;
   left: 50%;
-  top: 70%;
+  top: 60%;
   width: 140px;
   height: 140px;
   margin-top: -70px;
   margin-left: -70px;
 }
 
-.selector,
-.selector button {
+/* .selector, */
+/* .selector button {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
@@ -64,7 +65,7 @@ header,
   width: 100%;
   height: 100%;
   padding: 10px;
-  background: #428bca;
+  background: #000000;
   border-radius: 50%;
   border: 0;
   color: white;
@@ -75,7 +76,14 @@ header,
 }
 
 .selector button:hover {
-  background: #3071a9;
+  background: #fafafa;
+} */
+.selector img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  transition: all 0.1s;
 }
 
 .selector button:focus {
@@ -240,8 +248,8 @@ header,
 
 .card {
   margin: 30px auto;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   border-radius: 40px;
   box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
     -5px -5px 30px 7px rgba(0, 0, 0, 0.22);

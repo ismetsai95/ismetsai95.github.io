@@ -33,7 +33,7 @@ var nbOptions = 8;
         }
     }
 
-    $('.selector button').click(function(e) {
+    $('.selector img').click(function(e) {
         toggleOptions($(this).parent());
     });
 
@@ -67,7 +67,7 @@ var presentasidaerah = document.getElementById("presentasidaerah");
 var btn = document.getElementById("c1");
 var btn2 = document.getElementById("c7");
 var btn3 = document.getElementById("keluar");
-var navprofil = document.getElementById("navprofil");
+// var navprofil = document.getElementById("navprofil");
 var btnsejarah = document.getElementById("btnsejarah");
 var btnvisimisi = document.getElementById("btnvisimisi");
 var btngeografis = document.getElementById("btngeografis");
@@ -90,9 +90,9 @@ btn.onclick = function() {
 btn2.onclick = function() {
     modal2.style.display = "block";
 }
-navprofil.onclick = function() {
-    modal2.style.display = "block";
-}
+// navprofil.onclick = function() {
+//     modal2.style.display = "block";
+// }
 btnsejarah.onclick = function() {
     sejarah.style.display = "block";
 }
