@@ -27,9 +27,9 @@ header,
 }
 .tulis {
   position: absolute;
-  left: 5%;
-  right: 5%;
-  top: 5%;
+  left: 0%;
+  right: 0%;
+  top: 2%;
   font-style: normal;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 30pt;
@@ -47,7 +47,7 @@ header,
 .selector {
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 65%;
   width: 140px;
   height: 140px;
   margin-top: -70px;
