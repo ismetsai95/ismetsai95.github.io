@@ -61,13 +61,12 @@ var sejarah = document.getElementById("sejarah");
 var visimisi = document.getElementById("visimisi");
 var geografis = document.getElementById("geografis");
 var apbd = document.getElementById("apbd");
-var presentasidaerah = document.getElementById("presentasidaerah");
 var muspida = document.getElementById("muspida");
 var bupatidanwakilbupati = document.getElementById("bupatidanwakilbupati");
 var pejabateksekutif = document.getElementById("pejabateksekutif");
 var pejabatlegislatif = document.getElementById("pejabatlegislatif");
 var instasivertikal = document.getElementById("instasivertikal");
-var perangkatdaerah = document.getElementById("perangkatdaerah");
+// var perangkatdaerah = document.getElementById("perangkatdaerah");
 var desa = document.getElementById("desa");
 var infopublik = document.getElementById("infopublik");
 
@@ -83,13 +82,12 @@ var btnsejarah = document.getElementById("btnsejarah");
 var btnvisimisi = document.getElementById("btnvisimisi");
 var btngeografis = document.getElementById("btngeografis");
 var btnapbd = document.getElementById("btnapbd");
-var btnpresentasi = document.getElementById("btnpresentasi");
 var btnmuspida = document.getElementById("btnmuspida");
 var btnbupatidanwakilbupati = document.getElementById("btnbupatidanwakilbupati");
 var btnpejabatekskutif = document.getElementById("btnpejabatekskutif");
 var btnpejabatlegislatif = document.getElementById("btnpejabatlegislatif");
 var btninstasivertikal = document.getElementById("btninstasivertikal");
-var btnperangkatdaerah = document.getElementById("btnperangkatdaerah");
+// var btnperangkatdaerah = document.getElementById("btnperangkatdaerah");
 var btndesa = document.getElementById("btndesa");
 
 
@@ -100,15 +98,14 @@ var span3 = document.getElementsByClassName("close")[2];
 var span4 = document.getElementsByClassName("close")[3];
 var span5 = document.getElementsByClassName("close")[4];
 var span6 = document.getElementsByClassName("close")[5];
-var span7 = document.getElementsByClassName("close")[6];
-var span8 = document.getElementsByClassName("close")[7];
-var span9 = document.getElementsByClassName("close")[8];
-var span10 = document.getElementsByClassName("close")[9];
-var span11 = document.getElementsByClassName("close")[10];
-var span12 = document.getElementsByClassName("close")[11];
-var span13 = document.getElementsByClassName("close")[12];
-var span14 = document.getElementsByClassName("close")[13];
-var span15 = document.getElementsByClassName("close")[14];
+var span8 = document.getElementsByClassName("close")[6];
+var span9 = document.getElementsByClassName("close")[7];
+var span10 = document.getElementsByClassName("close")[8];
+var span11 = document.getElementsByClassName("close")[9];
+var span12 = document.getElementsByClassName("close")[10];
+// var span13 = document.getElementsByClassName("close")[11];
+var span14 = document.getElementsByClassName("close")[11];
+var span15 = document.getElementsByClassName("close")[12];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -132,9 +129,6 @@ btngeografis.onclick = function() {
 btnapbd.onclick = function() {
     apbd.style.display = "block";
 }
-btnpresentasi.onclick = function() {
-    presentasidaerah.style.display = "block";
-}
 btnmuspida.onclick = function() {
     muspida.style.display = "block";
 }
@@ -150,9 +144,9 @@ btnpejabatlegislatif.onclick = function() {
 btninstasivertikal.onclick = function() {
     instasivertikal.style.display = "block";
 }
-btnperangkatdaerah.onclick = function() {
-    perangkatdaerah.style.display = "block";
-}
+// btnperangkatdaerah.onclick = function() {
+//     perangkatdaerah.style.display = "block";
+// }
 btndesa.onclick = function() {
     desa.style.display = "block";
 }
@@ -188,9 +182,6 @@ span5.onclick = function() {
 span6.onclick = function() {
     apbd.style.display = "none";
 }
-span7.onclick = function() {
-    presentasidaerah.style.display = "none";
-}
 span8.onclick = function() {
     muspida.style.display = "none";
 }
@@ -206,9 +197,9 @@ span11.onclick = function() {
 span12.onclick = function() {
     instasivertikal.style.display = "none";
 }
-span13.onclick = function() {
-    perangkatdaerah.style.display = "none";
-}
+// span13.onclick = function() {
+//     perangkatdaerah.style.display = "none";
+// }
 span14.onclick = function() {
     desa.style.display = "none";
 }
@@ -239,9 +230,6 @@ window.onclick = function(event) {
     if (event.target == apbd) {
         apbd.style.display = "none";
     }
-    if (event.target == presentasidaerah) {
-        presentasidaerah.style.display = "none";
-    }
     if (event.target == muspida) {
         muspida.style.display = "none";
     }
@@ -257,9 +245,9 @@ window.onclick = function(event) {
     if (event.target == instasivertikal) {
         instasivertikal.style.display = "none";
     }
-    if (event.target == perangkatdaerah) {
-        perangkatdaerah.style.display = "none";
-    }
+    // if (event.target == perangkatdaerah) {
+    //     perangkatdaerah.style.display = "none";
+    // }
     if (event.target == desa) {
         desa.style.display = "none";
     }

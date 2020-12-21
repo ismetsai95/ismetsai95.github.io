@@ -392,3 +392,16 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 .cardmuspida:hover > .back {
   transform: perspective(600px) rotateY(0deg);
 }
+
+.cardvisimisi {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.titlevisimisi {
+  color: grey;
+  font-size: 12px;
+}
