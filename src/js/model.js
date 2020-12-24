@@ -73,6 +73,7 @@ var websiteterkait = document.getElementById("websiteterkait");
 var layanan = document.getElementById("layanan");
 var sisteminformasi = document.getElementById("sisteminformasi");
 var sakip = document.getElementById("sakip");
+var emergency = document.getElementById("emergency");
 
 // Get the button that opens the modal
 var btn = document.getElementById("c1");
@@ -100,6 +101,8 @@ var btnwebsiteterkait = document.getElementById("btnwebsiteterkait");
 var c5 = document.getElementById("c5");
 var c3 = document.getElementById("c3");
 var c4 = document.getElementById("c4");
+var btnemergency = document.getElementById("btnemergency");
+
 
 
 
@@ -122,6 +125,7 @@ var span16 = document.getElementsByClassName("close")[13];
 var span17 = document.getElementsByClassName("close")[14];
 var span18 = document.getElementsByClassName("close")[15];
 var span19 = document.getElementsByClassName("close")[16];
+var span20 = document.getElementsByClassName("close")[17];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -180,6 +184,9 @@ c3.onclick = function() {
 }
 c4.onclick = function() {
     sakip.style.display = "block";
+}
+btnemergency.onclick = function() {
+    emergency.style.display = "block";
 }
 
 
@@ -256,6 +263,9 @@ span18.onclick = function() {
 span19.onclick = function() {
     sakip.style.display = "none";
 }
+span20.onclick = function() {
+    emergency.style.display = "none";
+}
 
 
 
@@ -315,5 +325,8 @@ window.onclick = function(event) {
     }
     if (event.target == sakip) {
         sakip.style.display = "none";
+    }
+    if (event.target == emergency) {
+        emergency.style.display = "none";
     }
 }
