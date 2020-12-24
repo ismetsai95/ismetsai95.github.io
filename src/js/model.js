@@ -69,6 +69,10 @@ var instasivertikal = document.getElementById("instasivertikal");
 // var perangkatdaerah = document.getElementById("perangkatdaerah");
 var desa = document.getElementById("desa");
 var infopublik = document.getElementById("infopublik");
+var websiteterkait = document.getElementById("websiteterkait");
+var layanan = document.getElementById("layanan");
+var sisteminformasi = document.getElementById("sisteminformasi");
+var sakip = document.getElementById("sakip");
 
 // Get the button that opens the modal
 var btn = document.getElementById("c1");
@@ -77,6 +81,9 @@ var c2 = document.getElementById("c2");
 var btn3 = document.getElementById("keluar");
 var keluarpemerintahan = document.getElementById("keluarpemerintahan");
 var keluarinfopublik = document.getElementById("keluarinfopublik");
+var keluarlayanan = document.getElementById("keluarlayanan");
+var keluarsisteminformasi = document.getElementById("keluarsisteminformasi");
+var keluarsakip = document.getElementById("keluarsakip");
 // var navprofil = document.getElementById("navprofil");
 var btnsejarah = document.getElementById("btnsejarah");
 var btnvisimisi = document.getElementById("btnvisimisi");
@@ -89,6 +96,11 @@ var btnpejabatlegislatif = document.getElementById("btnpejabatlegislatif");
 var btninstasivertikal = document.getElementById("btninstasivertikal");
 // var btnperangkatdaerah = document.getElementById("btnperangkatdaerah");
 var btndesa = document.getElementById("btndesa");
+var btnwebsiteterkait = document.getElementById("btnwebsiteterkait");
+var c5 = document.getElementById("c5");
+var c3 = document.getElementById("c3");
+var c4 = document.getElementById("c4");
+
 
 
 // Get the <span> element that closes the modal
@@ -106,6 +118,10 @@ var span12 = document.getElementsByClassName("close")[10];
 // var span13 = document.getElementsByClassName("close")[11];
 var span14 = document.getElementsByClassName("close")[11];
 var span15 = document.getElementsByClassName("close")[12];
+var span16 = document.getElementsByClassName("close")[13];
+var span17 = document.getElementsByClassName("close")[14];
+var span18 = document.getElementsByClassName("close")[15];
+var span19 = document.getElementsByClassName("close")[16];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -153,6 +169,19 @@ btndesa.onclick = function() {
 c2.onclick = function() {
     infopublik.style.display = "block";
 }
+btnwebsiteterkait.onclick = function() {
+    websiteterkait.style.display = "block";
+}
+c5.onclick = function() {
+    layanan.style.display = "block";
+}
+c3.onclick = function() {
+    sisteminformasi.style.display = "block";
+}
+c4.onclick = function() {
+    sakip.style.display = "block";
+}
+
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
@@ -172,6 +201,15 @@ keluarpemerintahan.onclick = function() {
 }
 keluarinfopublik.onclick = function() {
     infopublik.style.display = "none";
+}
+keluarlayanan.onclick = function() {
+    layanan.style.display = "none";
+}
+keluarsisteminformasi.onclick = function() {
+    sisteminformasi.style.display = "none";
+}
+keluarsakip.onclick = function() {
+    sakip.style.display = "none";
 }
 span4.onclick = function() {
     visimisi.style.display = "none";
@@ -205,6 +243,18 @@ span14.onclick = function() {
 }
 span15.onclick = function() {
     infopublik.style.display = "none";
+}
+span16.onclick = function() {
+    websiteterkait.style.display = "none";
+}
+span17.onclick = function() {
+    layanan.style.display = "none";
+}
+span18.onclick = function() {
+    sisteminformasi.style.display = "none";
+}
+span19.onclick = function() {
+    sakip.style.display = "none";
 }
 
 
@@ -253,5 +303,17 @@ window.onclick = function(event) {
     }
     if (event.target == infopublik) {
         infopublik.style.display = "none";
+    }
+    if (event.target == websiteterkait) {
+        websiteterkait.style.display = "none";
+    }
+    if (event.target == layanan) {
+        layanan.style.display = "none";
+    }
+    if (event.target == sisteminformasi) {
+        sisteminformasi.style.display = "none";
+    }
+    if (event.target == sakip) {
+        sakip.style.display = "none";
     }
 }
