@@ -368,6 +368,36 @@ header,
   }
   
 }
+@media all and (min-height: 694px) {
+  
+  .counter3 {
+    left: 45%;
+    width: 10%;
+    height: auto;
+    margin-top: 500px;
+  }
+  
+}
+@media all and (min-height: 774px) {
+  
+  .counter3 {
+    left: 45%;
+    width: 10%;
+    height: auto;
+    margin-top: 530px;
+  }
+  
+}
+@media all and (min-height: 822px) {
+  
+  .counter3 {
+    left: 45%;
+    width: 10%;
+    height: auto;
+    margin-top: 590px;
+  }
+  
+}
 @media all and (min-height: 1024px) {
   
   .counter3 {
@@ -375,6 +405,16 @@ header,
     width: 10%;
     height: auto;
     margin-top: 550px;
+  }
+  
+}
+@media all and (min-height: 1366px) {
+  
+  .counter3 {
+    left: 45%;
+    width: 10%;
+    height: auto;
+    margin-top: 890px;
   }
   
 }
