@@ -45,6 +45,12 @@ header,
   /* -webkit-text-stroke: 1px black; */
  
 }
+.counter3 {
+  left: 45%;
+  width: 10%;
+  height: auto;
+  margin-top: 410px;
+}
 .counter2 {
   left: 47%;
   width: 80px;
@@ -310,27 +316,28 @@ header,
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
-  .counter2 {
-    left: 40%;
-    width: 80px;
-    height: 20px;
-    margin-top: 120%;
+  .counter3 {
+    left: 45%;
+    width: 10%;
+    height: auto;
+    margin-top: 430px;
   }
 
   
 }
 @media all and (max-width: 360px) {
   
-  .counter2 {
-    left: 40%;
-    width: 80px;
-    height: 20px;
-    margin-top: 120%;
+  .counter3 {
+    left: 45%;
+    width: 10%;
+    height: auto;
+    margin-top: 420px;
   }
   
 }
 
 @media all and (max-height: 540px) {
+  
   .logocover {
     position: relative;
     left: 1%;
@@ -339,17 +346,41 @@ header,
     top: 50%;
    
   }
-  .counter2 {
-    left: 80%;
-    margin-top: 40%;
-
-  }
   .tulis {
     position: absolute;
     left: 75%;
   }
+  .counter3 {
+    left: 85%;
+    width: 10%;
+    height: auto;
+    margin-top: 250px;
+  }
  
 }
+@media all and (min-height: 667px) {
+  
+  .counter3 {
+    left: 45%;
+    width: 10%;
+    height: auto;
+    margin-top: 450px;
+  }
+  
+}
+@media all and (min-height: 1024px) {
+  
+  .counter3 {
+    left: 45%;
+    width: 10%;
+    height: auto;
+    margin-top: 550px;
+  }
+  
+}
+
+
+
 
 
 
