@@ -523,3 +523,16 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 
 
+.cardsakip {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  text-align: left;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
