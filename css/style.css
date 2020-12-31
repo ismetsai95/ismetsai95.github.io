@@ -160,7 +160,7 @@ header,
   height: 0;
   line-height: 1px;
   margin-left: 0;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-radius: 50%;
   text-align: center;
   font-size: 1px;
@@ -171,12 +171,12 @@ header,
 }
 
 .selector li input + label:hover {
-  background: #f0f0f0;
+  background: #03b2f7;
 }
 
 .selector li input:checked + label {
   background: #5cb85c;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .selector li input:checked + label:hover {
