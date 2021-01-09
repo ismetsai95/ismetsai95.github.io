@@ -2,8 +2,15 @@
   position: fixed;
   z-index: -1;
 /*not work if the screen ratio is below 16/9*/
-    width:100%;     
+    width:auto;     
     height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+
+
 }
 @media (min-aspect-ratio: 16/9) {
   #myVideo {
@@ -21,6 +28,7 @@
   #myVideo {
     width:auto;
     height: 100%;
+    
   }
   
 }
@@ -71,6 +79,7 @@ header,
   left: 75%;
   width: 20%;
   height: auto;
+  top: 40px;
   vertical-align: middle;
   /* -webkit-text-stroke: 1px black; */
   /* -webkit-text-stroke: 1px black; */
