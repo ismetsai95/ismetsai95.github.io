@@ -1,14 +1,17 @@
 #myVideo {
-  position: fixed;
+  /* position: fixed;
   z-index: -1;
-/*not work if the screen ratio is below 16/9*/
     width:auto;     
     height: auto;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     min-width: 100%;
-    min-height: 100%;
+    min-height: 100%; */
+    position: fixed;
+    z-index: -1;
+    width:auto;     
+    height: 100%;
 
 
 }
@@ -20,8 +23,15 @@
 }
 @media (max-aspect-ratio: 16/9) {
   #myVideo { 
-      width:auto;
-      height: 100%;
+    position: fixed;
+    z-index: -1;
+      width:auto;     
+      height: auto;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      min-width: 100%;
+      min-height: 100%;
   }
 }
 @media (max-width: 360px) {
