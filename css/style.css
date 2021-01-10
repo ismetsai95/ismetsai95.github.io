@@ -359,6 +359,7 @@ header,
 .title-black {
   color: black;
 }
+
 @media all and (max-width: 640px) {
   
   .logocover2 {
@@ -390,11 +391,26 @@ header,
   .logocover2 {
     position: relative;
     left: 40%;
-    width: 15%;
+    width: 20%;
     height: auto;
     top: 360px;
   }
   
+}
+@media all and (max-height: 355px) {
+  
+.selector{
+ 
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 140px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: -70px;
+  
+}
+ 
 }
 
 @media all and (max-height: 540px) {
@@ -426,7 +442,7 @@ header,
   .logocover2 {
     position: relative;
     left: 42%;
-    width: 15%;
+    width: 20%;
     height: auto;
     top: 400px;
   }
@@ -437,7 +453,7 @@ header,
   .logocover2 {
     position: relative;
     left: 42%;
-    width: 15%;
+    width: 20%;
     height: auto;
     top: 500px;
   }
@@ -448,7 +464,7 @@ header,
   .logocover2 {
     position: relative;
     left: 42%;
-    width: 15%;
+    width: 20%;
     height: auto;
     top: 600px;
   }
