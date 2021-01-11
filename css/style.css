@@ -392,14 +392,14 @@ header,
     position: relative;
     left: 40%;
     width: 20%;
-    height: auto;
+    height: 20%;
     top: auto;
   }
   .selector{
  
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 73%;
     width: 140px;
     height: auto;
     margin-top: -70px;
@@ -433,6 +433,13 @@ header,
     height: 20%;
     top: 50%;
    
+  }
+  .logocover2 {
+    position: relative;
+    left: 80%;
+    width: 15%;
+    height: auto;
+    top: auto;
   }
   
   .tulis {
