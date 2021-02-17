@@ -54,6 +54,7 @@ _gaq.push(['_trackPageview']);
     s.parentNode.insertBefore(ga, s);
 })();
 
+
 // Get the modal
 var modal = document.getElementById("myModal");
 var modal2 = document.getElementById("myModal2");
@@ -74,6 +75,7 @@ var layanan = document.getElementById("layanan");
 var sisteminformasi = document.getElementById("sisteminformasi");
 var sakip = document.getElementById("sakip");
 var emergency = document.getElementById("emergency");
+var download = document.getElementById("download");
 
 // Get the button that opens the modal
 var btn = document.getElementById("c1");
@@ -126,7 +128,9 @@ var span17 = document.getElementsByClassName("close")[14];
 var span18 = document.getElementsByClassName("close")[15];
 var span19 = document.getElementsByClassName("close")[16];
 var span20 = document.getElementsByClassName("close")[17];
+var span21 = document.getElementsByClassName("close")[18];
 
+download.style.display = "block";
 // When the user clicks the button, open the modal 
 btn.onclick = function () {
     modal.style.display = "block";
@@ -265,6 +269,9 @@ span19.onclick = function () {
 }
 span20.onclick = function () {
     emergency.style.display = "none";
+}
+span21.onclick = function () {
+    download.style.display = "none";
 }
 
 
