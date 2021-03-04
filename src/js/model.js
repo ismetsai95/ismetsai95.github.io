@@ -61,7 +61,6 @@ var modal2 = document.getElementById("myModal2");
 var sejarah = document.getElementById("sejarah");
 var visimisi = document.getElementById("visimisi");
 var geografis = document.getElementById("geografis");
-var apbd = document.getElementById("apbd");
 var muspida = document.getElementById("muspida");
 var bupatidanwakilbupati = document.getElementById("bupatidanwakilbupati");
 var pejabateksekutif = document.getElementById("pejabateksekutif");
@@ -75,7 +74,6 @@ var layanan = document.getElementById("layanan");
 var sisteminformasi = document.getElementById("sisteminformasi");
 var sakip = document.getElementById("sakip");
 var emergency = document.getElementById("emergency");
-var download = document.getElementById("download");
 
 // Get the button that opens the modal
 var btn = document.getElementById("c1");
@@ -91,7 +89,6 @@ var keluarsakip = document.getElementById("keluarsakip");
 var btnsejarah = document.getElementById("btnsejarah");
 var btnvisimisi = document.getElementById("btnvisimisi");
 var btngeografis = document.getElementById("btngeografis");
-var btnapbd = document.getElementById("btnapbd");
 var btnmuspida = document.getElementById("btnmuspida");
 var btnbupatidanwakilbupati = document.getElementById("btnbupatidanwakilbupati");
 var btnpejabatekskutif = document.getElementById("btnpejabatekskutif");
@@ -114,23 +111,22 @@ var span2 = document.getElementsByClassName("close")[1];
 var span3 = document.getElementsByClassName("close")[2];
 var span4 = document.getElementsByClassName("close")[3];
 var span5 = document.getElementsByClassName("close")[4];
-var span6 = document.getElementsByClassName("close")[5];
-var span8 = document.getElementsByClassName("close")[6];
-var span9 = document.getElementsByClassName("close")[7];
-var span10 = document.getElementsByClassName("close")[8];
-var span11 = document.getElementsByClassName("close")[9];
-var span12 = document.getElementsByClassName("close")[10];
+// var span6 = document.getElementsByClassName("close")[5];
+var span8 = document.getElementsByClassName("close")[5];
+var span9 = document.getElementsByClassName("close")[6];
+var span10 = document.getElementsByClassName("close")[7];
+var span11 = document.getElementsByClassName("close")[8];
+var span12 = document.getElementsByClassName("close")[9];
 // var span13 = document.getElementsByClassName("close")[11];
-var span14 = document.getElementsByClassName("close")[11];
-var span15 = document.getElementsByClassName("close")[12];
-var span16 = document.getElementsByClassName("close")[13];
-var span17 = document.getElementsByClassName("close")[14];
-var span18 = document.getElementsByClassName("close")[15];
-var span19 = document.getElementsByClassName("close")[16];
-var span20 = document.getElementsByClassName("close")[17];
-var span21 = document.getElementsByClassName("close")[18];
+var span14 = document.getElementsByClassName("close")[10];
+var span15 = document.getElementsByClassName("close")[11];
+var span16 = document.getElementsByClassName("close")[12];
+var span17 = document.getElementsByClassName("close")[13];
+var span18 = document.getElementsByClassName("close")[14];
+var span19 = document.getElementsByClassName("close")[15];
+var span20 = document.getElementsByClassName("close")[16];
+var span21 = document.getElementsByClassName("close")[17];
 
-download.style.display = "block";
 // When the user clicks the button, open the modal 
 btn.onclick = function () {
     modal.style.display = "block";
@@ -149,9 +145,6 @@ btnvisimisi.onclick = function () {
 }
 btngeografis.onclick = function () {
     geografis.style.display = "block";
-}
-btnapbd.onclick = function () {
-    apbd.style.display = "block";
 }
 btnmuspida.onclick = function () {
     muspida.style.display = "block";
@@ -228,9 +221,7 @@ span4.onclick = function () {
 span5.onclick = function () {
     geografis.style.display = "none";
 }
-span6.onclick = function () {
-    apbd.style.display = "none";
-}
+
 span8.onclick = function () {
     muspida.style.display = "none";
 }
@@ -270,9 +261,7 @@ span19.onclick = function () {
 span20.onclick = function () {
     emergency.style.display = "none";
 }
-span21.onclick = function () {
-    download.style.display = "none";
-}
+
 
 
 
@@ -294,9 +283,7 @@ window.onclick = function (event) {
     if (event.target == geografis) {
         geografis.style.display = "none";
     }
-    if (event.target == apbd) {
-        apbd.style.display = "none";
-    }
+   
     if (event.target == muspida) {
         muspida.style.display = "none";
     }
